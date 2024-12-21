@@ -53,12 +53,14 @@ align_to = rs.stream.color
 align = rs.align(align_to)
 
 # ====== Get depth Scale ======
-
+.....
 
 # ====== Set clipping distance ======
-
+......
 
 # ====== Get and process images ====== 
+
+......
 print(f"Starting to capture images on SN: {device}")
 
 
