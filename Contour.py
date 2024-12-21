@@ -6,7 +6,7 @@ def detect_rectangle_contour(frames, color_frame):
         return
 
     # Convert the color frame to OpenCV format
-    color_image = np.asanyarray(color_frame.get_data())
+    color_image = np.fromarray(color_frame.get_data())
 
     # TODO: Perform projection mapping and obtain the projected rectangle
 
